@@ -1,3 +1,5 @@
+.DS_Store
+
 # built application files
 *.apk
 *.ap_
@@ -9,6 +11,7 @@
 *.class
 
 # generated files
+out/
 bin/
 gen/
 
@@ -18,3 +21,10 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+
+# Other Eclipse build files
+project.properties
+ant.properties
+build.xml
+proguard-project.txt
+
